@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Toggle from './ToggleRPC.js';
 
 export default class App extends Component {
@@ -8,10 +8,10 @@ export default class App extends Component {
         <h1>Toggle Component Sample</h1>
           <Toggle>
             {({on, toggle}) => (
-              <div>
+              <Fragment>
                 {on && <h1>Show Me</h1>}
                 <button onClick={toggle}>Show / Hide</button>
-              </div>
+              </Fragment>
             )}
           </Toggle>
       </div>
