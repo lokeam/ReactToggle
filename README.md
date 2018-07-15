@@ -6,5 +6,3 @@
 > npm install
 > npm start
 ```
-
-# ReactToggle
